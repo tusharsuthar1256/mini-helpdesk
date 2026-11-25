@@ -1,0 +1,12 @@
+{
+  "name": "helpdesk",
+  "private": true,
+  "description": "Support Ticket Management System - Express + MongoDB API with a React (BoardUI) client",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  }
+}
